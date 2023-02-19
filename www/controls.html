@@ -1,0 +1,84 @@
+
+<link rel="icon" type="image/x-icon" href="https://cloud.luisweb.nl/cloud/loader/sam.ico">
+<body class="loading">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+  
+    <button class="custom-btn btn-11" href="https//luisweb.nl/pege/jugar">Skip<div class="dot"></div></button>
+  <style>
+    /* 11 */
+.btn-11 {
+  border: none;
+  background: rgb(251,33,117);
+    background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
+    color: #fff;
+    overflow: hidden;
+}
+.btn-11:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-11:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+.btn-11:hover{
+  opacity: .7;
+}
+.btn-11:active{
+  box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+
+@-webkit-keyframes shiny-btn1 {
+    0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+    80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+    81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+    100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}
+
+  </style>
+<style>
+			body {
+				-webkit-transition: background-color 1s;
+				transition: background-color 1s;
+			}
+			html, body { min-height: 100%; }
+			body.loading {
+				background: #333 url('https://cloud.luisweb.nl/cloud/animcrtl.gif') no-repeat 50% 50%;
+				-webkit-transition: background-color 0;
+				transition: background-color 0;
+				opacity: 0;
+				-webkit-transition: opacity 0;
+				transition: opacity 0;
+			}
+		 </style>
+
+
+
+
+     <script>
+     			var body = document.getElementsByTagName('body')[0];
+			var removeLoading = function() {
+			
+				setTimeout(function() {
+					body.className = body.className.replace(/loading/, '');
+				}, 10300);
+			};
+			removeLoading();
+      </script>
+<script>
+  var timer = setTimeout(function() {
+    window.location = 'https://luisweb.nl/pege/animstart'
+  }, 9500);
+</script>
+	<iframe width="0" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://cloud.luisweb.nl/cloud/howtoplaymp3.mp3"</iframe>

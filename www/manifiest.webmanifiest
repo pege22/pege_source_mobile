@@ -1,0 +1,22 @@
+{
+  "background_color": "#0094a4",
+  "description": "Zailand DEVELOPERS Application, Please READ DEVELOPERS T&amp;C",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Zailand DEVELOPERS",
+  "orientation": "landscape",
+  "scope": "/",
+  "short_name": "ZailandDEV",
+  "start_url": "/",
+  "theme_color": "#006fd8",
+  "categories": [
+    "business",
+    "finance",
+    "games",
+    "security"
+  ],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": [],
+  "lang": "en"
+}

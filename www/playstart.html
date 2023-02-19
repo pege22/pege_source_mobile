@@ -1,0 +1,39 @@
+
+<link rel="icon" type="image/x-icon" href="https://cloud.luisweb.nl/cloud/loader/sam.ico">
+<body class="loading">
+
+<style>
+			body {
+				-webkit-transition: background-color 1s;
+				transition: background-color 1s;
+			}
+			html, body { min-height: 100%; }
+			body.loading {
+				background: #333 url('https://cloud.luisweb.nl/cloud/Warning!!.gif') no-repeat 50% 50%;
+				-webkit-transition: background-color 0;
+				transition: background-color 0;
+				opacity: 0;
+				-webkit-transition: opacity 0;
+				transition: opacity 0;
+			}
+		 </style>
+
+
+
+     <script>
+     			var body = document.getElementsByTagName('body')[0];
+			var removeLoading = function() {
+			
+				setTimeout(function() {
+					body.className = body.className.replace(/loading/, '');
+				}, 7500);
+			};
+			removeLoading();
+      </script>
+
+	<iframe width="0" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://cloud.luisweb.nl/cloud/warningmp3.mp3"</iframe>
+<script>
+  var timer = setTimeout(function() {
+    window.location = 'https://luisweb.nl/pege/ctrl'
+  }, 7200);
+</script>
